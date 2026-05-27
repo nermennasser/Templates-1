@@ -52,6 +52,9 @@ hover 2(top to bottom)
 
 
 /*General Css Style*/
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0;
