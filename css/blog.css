@@ -1,0 +1,449 @@
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+body {
+    .varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+a{
+    text-decoration: none;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
+    font-family:"Varela Round", sans-serif";
+}
+button{
+    font-family: inherit;
+}
+ul{
+    list-style: none;
+}
+.pad-y{
+padding: 100px 0;
+}
+
+.clear{
+    clear: both;
+}
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.blog-header{
+ background-color:#eee;
+    height: 110PX;
+}
+.blog-content{
+   
+    overflow: hidden;
+}
+.blog-item{
+    float: left;
+}
+.blog-item.logo{
+    width: 30%;
+text-align: center;
+font-size: 25px;
+text-transform: capitalize;
+padding-top: 20px;
+}
+.blog-item.list{
+width: 60%;
+text-align: end;
+padding-top: 20px;
+color: black;
+}
+.breadcrumb li{
+    display: inline-block;
+    margin: 5px 0;
+    padding: 5px 0px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+ul.breadcrumb li a{
+    color: #6195ff;
+}
+ul.breadcrumb li+li:before {
+  padding: 2px;
+  color: black;
+  content: "/\00a0";
+}
+/* ............................. */
+.blog-body-items{
+    overflow: hidden;
+}
+.blog-body-items .item{
+    float: left;
+}
+.blog-body-items .blog-bigitem{
+    width: 70%;
+    /* background-color: blanchedalmond; */
+}
+.blog-image img{
+    width: 100%;
+    display: block;
+}
+.blog-list ul{
+   padding: 0 5px;
+    }
+.blog-list ul li {
+    display: inline-block;
+    margin-right: 17px;
+}
+.icon{
+    color:#6195ff;
+}
+
+.blog-bigitem h3{
+    text-transform: capitalize;
+    font-weight:bolder;
+
+}
+.blog-bigitem p{
+color: #8c979e;
+}
+.tags{
+    overflow: hidden;
+    height: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.tags-title , .tag-name{
+float: left;
+}
+.tags-title{
+    width:10%;
+    height: 100%;
+    padding: 0;
+    font-size: 20px;
+}
+.tag-name{
+    width: 90%;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.tag-name ul{
+    padding:15px 0;
+    margin-left: 0;
+}
+.tag-name ul li{
+    display: inline;
+    background-color: #eee;
+font-size: 15px;
+    padding:5px 10px;
+    margin-right: 2px;
+}
+.tag-name ul li i{
+    color: #6195ff;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.person-section{
+    overflow: hidden;
+    padding:  10px 10px;
+    border: 1.5px solid #8c979e;
+}
+.person-img ,.person-info{
+    float: left;
+}
+.person-img{
+    width: 20%;
+        padding: 0 10px 0 0;
+
+
+}
+.person-img img{
+    width: 100%;
+    display: block;
+    border: 2px solid #fff ;
+    
+
+}
+.person-info{
+    width: 70%;
+     padding: 0 5px; 
+}
+.person-name {
+    width: 28%;
+    display: inline-block;
+    padding: 0 5px 0 0;
+}
+.person-name h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.person-madia{
+    width: 70%;
+    display: inline-block;
+    height: 100%;
+        text-align:right;
+
+}
+ .person-madia li{
+    display:inline-block;
+ }
+.person-madia li a{
+    display: block;
+    width: 20px;
+        height: 20px;
+        background-color: #6195ff;
+        color: #fff;
+        margin-left:1px;
+        border-radius: 5px;
+        text-align: center;
+        transition:color 0.2s ;
+}
+
+
+.person-madia li a i{
+        line-height: 20px;
+}
+ .person-madia li a:hover{
+    color: #000;
+ }
+
+
+
+
+.person-info p{
+    color: #000;
+}
+
+
+
+
+
+
+/* ..................................... */
+
+.blog-body-items .blog-smallitem{
+    width: 25%;
+    /* background-color: yellowgreen; */
+    margin: 0 20px;
+    text-align: center;
+}
+
+/* ........................ */
+.section-comment{
+    text-align: left;
+margin: 30px 0px;
+    /* margin-bottom: 20px;  */
+}
+.section-comment .section-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 0px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow ', sans-serif;
+    font-weight: lighter; */
+}
+.section-comment .line{
+    display: block;
+    height: 3px;
+    width: 40px;
+    background-color:#6195ff ;
+    margin-top:10px; 
+    /* margin-left: 10px; */
+        margin-left: 0px
+
+}
+.section-comment .section-title.upper-text 
+{
+    text-transform: uppercase;
+}
+/* ........................................ */
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.all-comments{
+    background-color: #fefefe;
+}
+.person-section.comment:hover{
+background-color: #eee;
+border: 1px solid #8c979e;
+}
+.person-img.comment{
+    width: 10%;
+
+}
+.person-img.comment img{
+    width: 70px;
+}
+.comment-info{
+    width: 85%;
+}
+.person-name.comment{
+    width: 40%;
+    
+}
+.person-name.comment h4{
+display: inline-block;
+font-size: 15px;
+/* margin-right: 10px; */
+text-transform: uppercase;
+margin: 5px;
+
+}
+.person-name.comment span{
+    color: #6195ff;
+    margin-top: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.person-madia.comment{
+    width: 55%;
+    /* background-color: red; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.person-madia.comment a{
+    text-transform: uppercase;
+     color: blue;  
+   
+}
+.comment-info p{
+    color: #6195ff;
+    margin-top: 0;
+}
+.send-message{
+    background-color: #fefefe;
+}
+.form-comment{
+    /* background-color: #8c979e; */
+    padding:10px 0px;
+text-transform: capitalize;
+}
+.form-comment input[type=email]{
+    margin-left: 10px;
+
+}
+.form-comment input{
+  width: 45%;
+  padding:   10px 10px ;
+      margin: 0 10px 0 0;
+      text-transform: capitalize;
+          background-color: #eee;
+          border: none;
+  display: inline-block;
+}
+.form-comment textarea{
+    margin-top: 10px;
+    width: 95%;
+    text-transform: capitalize;
+    background-color: #eee;
+    border: none;
+    padding:10px;
+
+}
+button[type="submit"]{
+    background-color: #6195ff;
+    border: none;
+    padding:10px 25px;
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.7s;
+    transition: background-color 0.5s;
+}
+button[type="submit"]:hover{
+    color: #000;
+    background-color: #8c979e;
+}
+/*  */
+/* small item */
+input[type="search"]{
+    background-color: #eee;
+    width: 100%;
+    border: 1px solid #eee;
+    position: relative;
+    height: 35px;
+}
+.search-box {
+    position: relative;
+    height: 35px;
+}
+.search-box a{
+    position: absolute;
+    display: block;
+    top:10px;
+    right: 10px;
+}
+/* ............. */
+
+
+table {
+  font-family: inherit;
+  border-collapse:collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  border-left: none;
+  border-right: none;
+  text-align: left;
+  padding: 8px;
+  color:#6195ff;
+}
+.course-name{
+    padding-left: 0;
+}
+.num{
+    text-align: right;
+    padding-right: 0;
+    font-size: 12px;
+}
+/* .................... */
+.post-item{
+    overflow: hidden;
+}
+.post-img , .post-info{
+    float: left;
+            height: 60px;
+            margin-bottom: 20px;
+
+}
+.post-img{
+    width: 30%;
+    background-color: #6195ff;
+
+}
+.post-img img{
+    width: 100%;
+        display: block;
+        height: 100%;
+
+}
+
+.post-info{
+    width: 68%;
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 17px;
+    font-weight:100;
+    padding-left: 5px;
+}
+.post-info h4{
+    margin:0;
+    padding:0px;
+    
+}
+.post-info span{
+    color:#6195ff;
+}
+/* ................... */
+.tag-content{
+    text-align: left;
+
+}
+.tag-item{
+     background-color: #e8e8e8;
+    padding: 5px 10px; 
+    margin:0 5px 5px 5px;
+    display: inline-block;
+}
